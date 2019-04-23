@@ -1,4 +1,4 @@
-package DAL;
+package DAL.DAO;
 
 import DAL.DTO.IUserDTO;
 import DAL.DTO.UserDTO;
