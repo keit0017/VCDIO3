@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAOImpls185143 implements IUserDAO {
+public class UserDAOImpl implements IUserDAO {
 
     private Connection createConnection() throws SQLException {
 
