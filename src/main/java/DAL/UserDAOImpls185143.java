@@ -1,7 +1,7 @@
 package DAL;
 
-import dal.dto.IUserDTO;
-import dal.dto.UserDTO;
+import DAL.DTO.IUserDTO;
+import DAL.DTO.UserDTO;
 
 import java.sql.*;
 import java.util.ArrayList;
