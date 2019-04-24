@@ -1,3 +1,4 @@
+/* -------------------- General Styling ------------------------------- */
 body {
     text-align: center;
     font-size: 100%;
@@ -24,7 +25,9 @@ a:active {
     float: right;
     width: 115px;
 }
+/* -------------------- General Styling ------------------------------- */
 
+/* -------------------- Login page styling ---------------------------- */
 /* styling of <div> login form form */
 #login\ form form {
     text-align: left;
@@ -58,9 +61,9 @@ input[type=text]:focus,input[type=password]:focus {
 input[type=submit]:hover {
     background-color: darkgray;
 }
+/* -------------------- Login page styling ---------------------------- */
 
-
-
+/* -------------------- Useradmin-page/table styling ------------------ */
 /* general styling of table */
 table, th, td {
     border: 1px solid black;
@@ -95,3 +98,4 @@ td {
 #table {
     overflow-x: auto;
 }
+/* -------------------- Useradmin-page/table styling ------------------ */

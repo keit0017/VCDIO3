@@ -14,21 +14,26 @@
 
     <div id="Create user form">
         <h1>Opret bruger</h1>
-        <p>Bruger Id: (X)</p>
+        <p>Bruger ID: (X)</p>
         <form action="./useradmin.html">
             Brugernavn:<br>
             <input type="text" name="username"><br>
             Fornavn:<br>
             <input type="text" name="firstname"><br>
-            Efternavn:<br>
-            <input type="text" name="lastname"><br>
+            Ini:<br>
+            <input type="text" name="initials"><br>
+            CPR:<br>
+            <input type="text" name="CPR"><br>
+            Kodeord:<br>
+            <input type="text" name="password"><br>
             <br>
-
-            Rolle:<br>
-            <input type="radio" name="rolle" value="Administrator" checked> Administrator<br>
-            <input type="radio" name="rolle" value="Bruger"> Bruger<br>
-
-            <input type="submit" value="Udfør">
+            Rolle(r):<br>
+            <input class="check-box" type="checkbox" name="rolle" value="Administrator" checked> Administrator
+            <input class="check-box" type="checkbox" name="rolle" value="Pharmaceut"> Pharmaceut
+            <input class="check-box" type="checkbox" name="rolle" value="Produktionsleder"> Produktionsleder
+            <input class="check-box" type="checkbox" name="rolle" value="Laborant"> Laborant
+            <br> <br>
+            <input type="submit" value="Opret bruger">
         </form>
     </div>
 
