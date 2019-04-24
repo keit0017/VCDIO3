@@ -70,6 +70,8 @@ table, th, td {
 table {
     /*border-collapse: collapse;*/
     width: auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* table row. every even row has a color. */
