@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opret bruger</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div id="menu">
+        <h3>Menu</h3>
+        <a href="./useradmin.html">Brugeradministration</a> | <a href="index.html">Logud</a><br>
+    </div>
+
+    <div id="Create user form">
+        <h1>Opret bruger</h1>
+        <p>Bruger ID: (X)</p>
+        <form action="./useradmin.html">
+            Brugernavn:<br>
+            <input type="text" name="username"><br>
+            Fornavn:<br>
+            <input type="text" name="firstname"><br>
+            Ini:<br>
+            <input type="text" name="initials"><br>
+            CPR:<br>
+            <input type="text" name="CPR"><br>
+            Kodeord:<br>
+            <input type="text" name="password"><br>
+            <br>
+            Rolle(r):<br>
+            <input class="check-box" type="checkbox" name="rolle" value="Administrator" checked> Administrator
+            <input class="check-box" type="checkbox" name="rolle" value="Pharmaceut"> Pharmaceut
+            <input class="check-box" type="checkbox" name="rolle" value="Produktionsleder"> Produktionsleder
+            <input class="check-box" type="checkbox" name="rolle" value="Laborant"> Laborant
+            <br> <br>
+            <input type="submit" value="Opret bruger">
+        </form>
+    </div>
+
+</body>
+</html>
