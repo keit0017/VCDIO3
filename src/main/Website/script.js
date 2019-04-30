@@ -1,8 +1,3 @@
-$(document).ready(function(){
-   $("#adminPage").hide();
-   $("#editPage").hide();
-});
-
 $("#loginButton").click(function(){
     $("#loginPage").hide();
     $("#adminPage").show();
