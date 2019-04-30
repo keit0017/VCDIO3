@@ -11,16 +11,111 @@
     <script src="/script.js"></script>
 
     <div id="loginPage">
+        <div id="headers">
+            <h1>Brugeradministration login side</h1>
+            <h2>Gruppe 26</h2>
+        </div>
 
+        <div id="login form">
+            <form action="useradmin.html">
+                <fieldset>
+                    <legend>Brugeradministration login:</legend>
+                    <img class="logo" src="https://nunataryuk.org/images/Logos/dtu_logo.png" alt="DTU logo">
+                    Brugernavn:<br>
+                    <input type="text" id="username" name="username"><br>
+                    Kodeord:<br>
+                    <input type="password" id="password" name="password"><br>
+                    <br>
+                    <input type="submit" id="loginButton" value="Login">
+                </fieldset>
+            </form>
+        </div>
     </div>
 
     <div id="adminPage">
+        <div id="menu">
+            <h3>Menu</h3>
+            <a href="./useradmin.html">Brugeradministration</a> | <a href="userlogin.html">Logud</a><br>
+        </div>
 
+        <h1>Brugeradministration</h1>
+        <a href="useredit.html">Opret ny bruger</a><br>
+        <br>
+
+        <div id="table">
+            <table class="mintabel">
+                <tr>
+                    <th>BrugerID</th>
+                    <th>Brugernavn</th>
+                    <th>Initialer</th>
+                    <th>CPR</th>
+                    <th>Kodeord</th>
+                    <th>Rolle(r)</th>
+                </tr>
+
+                <!-- Temporary Example fill -->
+                <tr>
+                    <td>1</td>
+                    <td>BrianTheMan</td>
+                    <td>Administrator</td>
+                    <td>Brian</td>
+                    <td>Anker Engelundsvej</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>AA</td>
+                    <td>Bruger</td>
+                    <td>Anders</td>
+                    <td>Paradisæblevej</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>RA</td>
+                    <td>Bruger</td>
+                    <td>Rip</td>
+                    <td>Paradisæblevej</td>
+                    <td>13</td>
+                </tr>
+                <!-- Temporary  Example fill-->
+            </table>
+        </div>
     </div>
 
     <div id="editPage">
+        <div id="menu">
+            <h3>Menu</h3>
+            <a href="useradmin.html">Brugeradministration</a> | <a href="userlogin.html">Logud</a><br>
+        </div>
 
+        <div id="Create user form">
+            <h1>Opret bruger</h1>
+            <p>Bruger ID: (X)</p>
+            <form action="useradmin.html">
+                Brugernavn:<br>
+                <input type="text" name="username"><br>
+                Fornavn:<br>
+                <input type="text" name="firstname"><br>
+                Ini:<br>
+                <input type="text" name="initials"><br>
+                CPR:<br>
+                <input type="text" name="CPR"><br>
+                Kodeord:<br>
+                <input type="text" name="password"><br>
+                <br>
+                Rolle(r):<br>
+                <input class="check-box" type="checkbox" name="rolle" value="Administrator" checked> Administrator
+                <input class="check-box" type="checkbox" name="rolle" value="Pharmaceut"> Pharmaceut
+                <input class="check-box" type="checkbox" name="rolle" value="Produktionsleder"> Produktionsleder
+                <input class="check-box" type="checkbox" name="rolle" value="Laborant"> Laborant
+                <br> <br>
+                <input type="submit" value="Opret bruger">
+            </form>
+        </div>
     </div>
+
 </body>
 
 </html>
