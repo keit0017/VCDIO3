@@ -15,6 +15,10 @@ public interface IUserDTO {
 
     void setIni(String ini);
 
+    String getPassword();
+
+    void setPassword(String password);
+
     List<String> getRoles();
 
     void setRoles(List<String> roles);

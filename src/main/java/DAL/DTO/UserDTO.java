@@ -12,6 +12,7 @@ public class UserDTO implements Serializable, IUserDTO {
     private int	userId;
     private String userName;
     private String ini;
+    private String password;
     private List<String> roles;
     //Constructor
     public UserDTO() {
@@ -42,6 +43,17 @@ public class UserDTO implements Serializable, IUserDTO {
     public void setIni(String ini) {
         this.ini = ini;
     }
+
+    @Override
+    public String getPassword() {
+        return password;
+    }
+
+    @Override
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 
     @Override
     public List<String> getRoles() {
